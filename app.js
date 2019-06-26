@@ -3,7 +3,15 @@ var app = express();
 
 app.get('/', function(req, res) {
   res.send({
-    "Output": "Hello World!"
+    "Output": "Hello World!",
+    [
+      {
+        "item-1": "first item"
+      },
+      {
+        "item-2": "second item"
+      }
+    ]
   });
 });
 
