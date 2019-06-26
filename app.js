@@ -4,6 +4,7 @@ var app = express();
 app.get('/', function(req, res) {
   res.send({
     "Output": "Hello World!",
+    "Items":
     [
       {
         "item-1": "first item"
